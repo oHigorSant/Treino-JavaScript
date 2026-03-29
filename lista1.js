@@ -34,3 +34,21 @@ console.log(monitor);
 
 const ordenado = [...produtos].sort((a, b) => b.preco - a.preco);
 
+const numeros = [1, 2, 2, 3, 4, 4, 5];
+
+// EXERCÍCIO 5:
+// Retorne um array sem números repetidos.
+
+
+const pessoas = [
+  { nome: "Ana", idade: 20 },
+  { nome: "João", idade: 20 },
+  { nome: "Carlos", idade: 25 }
+];
+
+// EXERCÍCIO 6:
+// Agrupe as pessoas por idade no formato:
+// {
+//   20: ["Ana", "João"],
+//   25: ["Carlos"]
+// }
