@@ -17,6 +17,7 @@ const dados4 = "hello";
 
 
 
+
 // Exercício 5: Converter para maiúsculas
 const dados5 = "world";
 
@@ -28,12 +29,18 @@ const dados62 =  dados6.map(valor => valor +10);
 
 // Exercício 7: Remover duplicatas
 const dados7 = [1,2,2,3,3,3];
-
+// Aquele algoritmo
 
 // Exercício 8: Ordenar em ordem crescente
 const dados8 = [3,1,4,1,5];
+const dados82 =dados8.sort()
+console.log(dados82);
+
 // Exercício 9: Contar ocorrências
 const dados9 = ["a","b","a","c"];
+
+
+
 // Exercício 10: Mesclar arrays
 const dados10 = [[1,2],[3,4]];
 // Exercício 11: Encontrar o máximo
